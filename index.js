@@ -42,7 +42,7 @@ const showPasswordStrength = (password, minLength) => {
         hasUpper &&
         hasNumber
     ) {
-        return { level: "strong", score: Math.round(100 / 2) }
+        return { level: "strong", score: 50 }
     }
 
     if (
