@@ -1,0 +1,32 @@
+{
+  "name": "show-password-strength",
+  "version": "1.0.0",
+  "description": "A small NPM package for checking password strength.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js",
+    "dev": "node --watch ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Midhun-u/show-password-strength.git"
+  },
+  "keywords": [
+    "password",
+    "password",
+    "strength",
+    "check",
+    "password",
+    "strength",
+    "npm",
+    "nodejs",
+    "password",
+    "checker"
+  ],
+  "author": "midhun-u",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Midhun-u/show-password-strength/issues"
+  },
+  "homepage": "https://github.com/Midhun-u/show-password-strength#readme"
+}
