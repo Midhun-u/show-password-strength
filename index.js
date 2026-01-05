@@ -57,3 +57,5 @@ const showPasswordStrength = (password, minLength) => {
 
     }
 }
+
+export default showPasswordStrength
