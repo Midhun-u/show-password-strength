@@ -5,7 +5,11 @@
  */
 
 // Function for checking password is strong
-const showPasswordStrength = (password, minLength) => {
+const showPasswordStrength = (password = "", minLength = 0) => {
+
+    if(!password || minLength <= 0){
+        return {level: "weak", score: 0}
+    }
 
     const hasLower = /[a-z]/.test(password) // For checking if password contains lower characters 
     const hasUpper = /[A-Z]/.test(password) // For checking if password contains upper characters
