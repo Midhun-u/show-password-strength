@@ -7,7 +7,7 @@
 // Function for checking password is strong
 const showPasswordStrength = (password = "", minLength = 0) => {
 
-    if(!password || minLength <= 0){
+    if(!password || !minLength){
         return {level: "weak", score: 0}
     }
 
